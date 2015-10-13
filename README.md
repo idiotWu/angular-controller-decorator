@@ -19,21 +19,22 @@ import decorator from 'install angular-controller-decorator';
 import AppController from './controller';
 
 angular.module('app', [])
-    .controller( decorator(AppController) );
+    .controller( 'AppController', decorator(AppController) );
 ```
 
 ```javascript
-// in ./controller.js
+// in controller.js
 
 class AppController {
     static $inject = ['$rootScope', '$http'];
 
     constructor ($rootScope, $http) {
-        // code
+        this.getConfig('http://example.org')
+            .then(this.setGlobalConfig);
     }
 
     setGlobalConfig(config) {
-        // you can get dependencies throught `this.injections` property
+        // you can get dependencies through `this.injections` property
         let { $rootScope } = this.injections;
         $rootScope.config = config;
     }
