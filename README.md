@@ -15,7 +15,7 @@ npm install angular-controller-decorator --save
 ```javascript
 // in index.js
 
-import decorator from 'install angular-controller-decorator';
+import decorator from 'angular-controller-decorator';
 import AppController from './controller';
 
 angular.module('app', [])
