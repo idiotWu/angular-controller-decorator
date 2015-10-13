@@ -12,7 +12,7 @@ npm install angular-controller-decorator --save
 
 ### Usage
 
-```javascirpt
+```javascript
 // in index.js
 
 import decorator from 'install angular-controller-decorator';
