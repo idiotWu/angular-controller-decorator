@@ -1,0 +1,23 @@
+{
+  "name": "angular-controller-decorator",
+  "version": "0.1.0",
+  "description": "A decorator function for angular controllers that helps you inject dependencies to prototype method! ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idiotWu/angular-controller-decorator.git"
+  },
+  "keywords": [
+    "angular",
+    "oop"
+  ],
+  "author": "Dolphin Wood <dolphin.w.e@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idiotWu/angular-controller-decorator/issues"
+  },
+  "homepage": "https://github.com/idiotWu/angular-controller-decorator#readme"
+}
