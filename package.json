@@ -1,6 +1,6 @@
 {
   "name": "angular-controller-decorator",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A decorator function for angular controllers that helps you inject dependencies to prototype method! ",
   "main": "index.js",
   "scripts": {
